@@ -136,9 +136,7 @@ color: transparent;
   grid-gap: 20px;
   margin-top: 20px;
   padding-bottom: 40px;
-  
-
-}
+  }
 
 .caseStudyCard {
   background-color: white;
@@ -146,8 +144,8 @@ color: transparent;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-
 }
+
 
 .caseStudyCards img {
   width: 100%;
