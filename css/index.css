@@ -1,0 +1,227 @@
+@import url("index.css");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+* {
+margin: 20;
+padding: 20;
+box-sizing: border-box;
+font-family: 'Alegreya', serif;
+}
+body{
+ 
+    width: 100%;
+    height: auto;
+  }
+
+.header{
+position: fixed;
+top: 0;
+left: 0; 
+width: 100%;
+padding: 20px 100px;
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+.logo{
+font-size: 32px;
+color: #1d1e1f;
+text-decoration: none;
+font-weight: 700;
+}
+.navbar a {
+  position: relative;
+ font-size: 18px;
+ color: #1d1e1f;
+ font-weight: 500;
+text-decoration: none;
+margin-left: 40px;
+}
+.navbar a::before {
+Content: '';
+  Position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+}
+
+
+.navbar a::before 
+
+body, h4, ul, p {
+  margin: 20;
+  padding: 0;
+}
+
+
+footer {
+ 
+  background-color: transparent;
+  padding: 10px;
+  text-align: left;
+}
+
+h4 {
+  color: #1d1e1f;
+}
+
+.social-menu {
+  margin-top: 20px;
+  margin-right: 8px;
+  display: inline-block;
+  position: relative;
+}
+
+.social-icon img {
+  margin: 0 10px;
+  
+  width: 20PX;
+  height: 20px;
+}
+
+p {
+  margin-top: 10px;
+  color: #767676;
+  font-size: 18px;
+}
+.herosection{
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 18px;
+}
+
+.profileimage{
+height: auto;
+width: 100%;
+
+padding-left: 150px;
+}
+.noteforhero{
+  padding-left: 60px;
+  font-size: 24px;
+}
+
+.footersocialmedia{
+display: inline-block;
+list-style-type: none;
+padding: 2px;
+
+}
+
+.instagramlogo{
+  padding-top: 0px;
+}
+
+
+.caseStudyCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  
+
+}
+
+.caseStudyCard {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+}
+
+.caseStudyCards img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.caseStudyButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dfd6c6;
+  color: #fff ;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+ }
+
+.caseStudyButton {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.caseStudyButton{
+  position: relative; 
+  top: 20px; 
+  right: 10px;
+}
+
+.learnMoreButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5c6843;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.myWorksSection {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+ padding-top: 10px ; 
+}
+.my-skills{
+  background-color: #dfd6c6;
+  border-radius: 10px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ text-align: center;
+ margin-top: 150px;
+}
+.my-skills h2{
+  text-transform: uppercase;
+  position: relative;
+}
+
+.my-skills h2:after {
+  content:'';
+  position: relative;
+  width: 80px;
+  height: 2px;
+  margin-left: -40px;
+  left: 50%
+  botoom: 0px;
+  background-color: black;
+}
+
+.my-skills:after {
+ content: '';
+ display: block;
+ clear: both;
+}
+
+.my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+ 
+}
+  
+ 
+
+
+

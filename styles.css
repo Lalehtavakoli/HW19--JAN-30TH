@@ -1,0 +1,54 @@
+@import  url(“https://fonts.googleapic.com/css2?family=Poppins:wght@300;400;500;
+600;700;800;900&display-swap”);
+{
+Margin: 0;
+Padding: 0;
+Box-sizing: border-box;
+Font-family: “Poppins”, sans-serif;
+}
+body{
+min-height: 100vh;
+background: url("c:\Users\User\Desktop\UX-UI\HW-17\Laleh .jpg") no-repeat;
+background-size: cover;
+background-position:center;
+}
+.header{
+Position: fixed;
+Top: 0;
+Left: 0;
+Width: 100%;
+Background: transparent;
+Display: flex;
+Justify-content: space-bteween;
+Align-items: right;
+z-index: 100;
+}
+.logo{
+Font-size: 32px;
+Color: black;
+Text-decoration: none;
+Font-weight: 700;
+}
+.navbar a {
+Position: relative;
+  font-size: 18px;
+Color: balck;
+Font-weight:  500;
+Text-decoration: none;
+Margin-left: 40px;
+}
+.navbar a: :before {
+Content: “”;
+  Position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 2px;
+background: #dfd6c6;
+transition: .3s;
+}
+.navbar a:hover: :before {
+width: 100%;
+
+
+
