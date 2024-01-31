@@ -176,6 +176,10 @@ color: transparent;
   right: 10px;
 }
 
+.caseStudyButton:hover {
+  background-color: #5c6843;
+  color: #dfd6c6;
+}
 .learnMoreButton {
   display: inline-block;
   padding: 10px 20px;
