@@ -284,17 +284,11 @@ padding-top: 70px;
 
 
 
-body {
-  background-color: white;
-}
 
-@media only screen and (max-width: 800px) {
-  body {
-    background-color: #dfd6c6;
+
+@media screen and (max-width: 800px) {
+  .navbar a {
+    float: none;
+    display: block;
   }
 }
-
-
- 
-
-   
