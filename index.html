@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8"
+    name="viewport" content="width=device-width, initial-scale=1.0">
+    
 <link href="css/index.css" rel="stylesheet" type="text/css">
 
  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
@@ -11,7 +14,7 @@
      <a href="#" class="logo">Logo</a>
      <nav class="navbar">
        <a href="#">About</a>
-       <a href="#">Resume</a>
+       <a href="https://drive.google.com/file/d/13yKbNVJ1_Y18OO7ATTO03L5Q1bvCH7Il/view?usp=drive_link">Resume</a>
        <a href="#">Mywork</a>
        <a href="#">Contact</a>
     </nav>
@@ -29,8 +32,9 @@
    In my design journey,I focus on making things that not only work
   well but also make people happy when they use them.<br>
  </p>
-  <button>Learn More</button> 
-
+  <button class="learnMoreButton" id="myLearnMoreButton">
+    <a href="https://drive.google.com/file/d/13yKbNVJ1_Y18OO7ATTO03L5Q1bvCH7Il/view?usp=drive_link" class="learnMoreLink">
+      Learn More</a></button>
       
      
 </div>
@@ -38,28 +42,51 @@
 <img class="profileimage" src="Laleh .jpg" alt="Laleh" >
 </section>
 
+
 <!----------------- Homwork 18 ----------------------->
-<div class="my-skills">
-<h2>my skills</h2>
-<div class="skills-left">
-  <h4>UX Research</h4>
-  <p> Prototyping | User Research |
-    Personas | User Interviews | Usability Testing |
+<section class="mySkills" id="skillssection">
+<h2 >My Skills</h2>
+<div class="flexContainer">
+  <div class="flex-skills-left">
+    <h4>UX Research</h4>
+    <p class="skills-centered">
+    "Prototyping"
+    <br>
+    "User Research"
+    <br>
+    "Personas"
+    <br>
+    "User Interviews"
+    <br>
+    "Usability Testing"
+      </p>
+    </div>
+
+<div class="flex-skills-center">
+  <h4>UI Design</h4>
+  <p class="skills-centered">
+  "Information Architecture"
+<br>
+ "Design Thinking"
+ <br>
+  "UI Design" 
+  <br>
+  "Interaction Design"  
     </p>
 </div>
-<div class="skills-center">
-  <h4>UI Design</h4>
-  <p>Information Architecture | Design Thinking |
-    UI Design | Interaction Design  
-      .</p>
-</div>
-<div class="skills-right">
+<div class="flex-skills-right">
   <h4>Technology</h4>
-  <p> Figma| Miro| Invision
+  <p class="skills-centered">
+   "Figma"
+   <br>
+   "Miro"
+   <br>
+   "Invision"
+   <br>
       </p>
 </div>
 </div>
-
+</section>
 
 
 

@@ -47,10 +47,15 @@ Content: '';
   width: 0;
   height: 2px;
   background: white;
+  transition: .3s;
 }
 
 
-.navbar a::before 
+.navbar a:hover:before {
+  width: 100%;
+  background-color: #5c6843;
+  color: white;
+}
 
 body, h4, ul, p {
   margin: 20;
@@ -82,6 +87,7 @@ h4 {
   width: 20PX;
   height: 20px;
 }
+
 
 p {
   margin-top: 10px;
@@ -116,6 +122,12 @@ padding: 2px;
 .instagramlogo{
   padding-top: 0px;
 }
+
+.instagramlogo:hover {
+background-color: #767676;
+color: transparent;
+}
+  
 
 
 .caseStudyCards {
@@ -170,58 +182,117 @@ padding: 2px;
   display: inline-block;
   padding: 10px 20px;
   background-color: #5c6843;
-  color: black;
+  color: #5c6843;
   border-radius: 5px;
   text-decoration: none;
   margin-top: 10px;
 }
 
+.learnMoreButton:hover {
+  background-color: #dfd6c6;
+  color: #5c6843;
+}
 .myWorksSection {
   background-color: transparent;
-  padding: 10px;
+  
   text-align: center;
  padding-top: 10px ; 
 }
-.my-skills{
-  background-color: #dfd6c6;
-  border-radius: 10px;
- padding-top: 50px;
- padding-bottom: 50px;
- text-align: center;
- margin-top: 150px;
-}
-.my-skills h2{
-  text-transform: uppercase;
-  position: relative;
-}
 
-.my-skills h2:after {
-  content:'';
-  position: relative;
-  width: 80px;
-  height: 2px;
-  margin-left: -40px;
-  left: 50%
-  botoom: 0px;
-  background-color: black;
-}
 
-.my-skills:after {
- content: '';
- display: block;
- clear: both;
-}
-
-.my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  margin-top: 20px;
-  padding-bottom: 40px;
  
-}
+ 
+.mySkills {
+  padding-bottom: 2%;
+  justify-content: space-between;
+  text-align: center;    
+  background-color: white;
+  }
   
+  .mySkills h2 {
+  border-radius: 10px;
+  border: 1px solid black;
+  border-width: 2px;
+  display: inline-block;
+  padding: 15px;
+   background-color: none;
+  text-align: center;
+  
+  }
+
+
+.flexContainer{
+  display: flex;
+flex-direction: row;
+background-color: none;
+gap: 15px;
+text-align: center;
+margin-right: 15%;
+margin-left: 15%;
+justify-content:space-between;
+margin-bottom: 10%;
+padding-top: 70px;
+
+
+}
+
+
+
+
+
+.flex-skills-left {
+  background-color: #dfd6c6;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 33%;
+    margin: 20px;
+}
+
+.flex-skills-left:hover {
+  background-color: #5c6843;
+  color: #dfd6c6;
+}
+
+.flex-skills-right {
+  background-color: #dfd6c6;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 33%;
+    margin: 20px;
+}
+.flex-skills-right:hover {
+  background-color: #5c6843;
+  color: #dfd6c6;
+}
+
+.flex-skills-center:hover {
+  background-color: #5c6843;
+  color: #dfd6c6;
+}
+
+.flex-skills-center {
+  background-color: #dfd6c6;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 33%;
+    margin: 20px;
+ 
+}
+
+
+
+
+body {
+  background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #dfd6c6;
+  }
+}
+
+
  
 
-
-
+   
