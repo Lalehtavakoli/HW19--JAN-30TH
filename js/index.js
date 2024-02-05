@@ -11,14 +11,14 @@ $(document).ready(function() {
   
     function scrollFunction() {
       if ($(document).scrollTop() > 20) {
-        learnMoreBtnbutton.css("display", "block");
+        'learnMoreBtnbutton'.css("display", "block");
       } else {
-        learnMoreBtnbutton.css("display", "none");
+        'learnMoreBtnbutton'.css("display", "none");
       }
     }
   
     // When the user clicks on the button, scroll to the top of the document
-    learnMoreBtnbutton.click(function() {
+    'learnMoreBtnbutton'.click(function() {
       $("body,html").animate({ scrollTop: 0 }, "slow");
     });
   });
