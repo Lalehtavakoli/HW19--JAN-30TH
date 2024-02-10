@@ -100,10 +100,12 @@ p {
 }
 
 .profileimage{
-height: auto;
-width: 100%;
+  height: auto;
+  width: 100%;
+  
+  padding-left: 150px;
+  }
 
-padding-left: 150px;
 }
 .noteforhero{
   padding-left: 60px;
@@ -178,7 +180,7 @@ color: transparent;
   background-color: #5c6843;
   color: #dfd6c6;
 }
-.learnMoreButton {
+.downloadResume {
   display: inline-block;
   padding: 10px 20px;
   background-color: #5c6843;
@@ -188,7 +190,7 @@ color: transparent;
   margin-top: 10px;
 }
 
-.learnMoreButton:hover {
+.downloadResume:hover {
   background-color: #dfd6c6;
   color: #5c6843;
 }
