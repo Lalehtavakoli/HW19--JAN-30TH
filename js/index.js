@@ -2,7 +2,7 @@ console.log("Your index.js file is loaded correctly!");
 
 
 $(document).ready(function() {
-    var learnMoreBtn = $("#learnMoreBtn");
+    var downloadResumeBtn = $("#downloaResumeBtn");
   
     // When the user scrolls down 20px from the top of the document, show the button
     $(window).scroll(function() {
@@ -11,15 +11,19 @@ $(document).ready(function() {
   
     function scrollFunction() {
       if ($(document).scrollTop() > 20) {
-        'learnMoreBtnbutton'.css("display", "block");
+        'downloadResumeBtnbutton'.css("display", "block");
       } else {
-        'learnMoreBtnbutton'.css("display", "none");
+        'downloadResumeBtnbutton'.css("display", "none");
       }
     }
   
     // When the user clicks on the button, scroll to the top of the document
-    'learnMoreBtnbutton'.click(function() {
+    'downloadResumeBtnbutton'.click(function() {
       $("body,html").animate({ scrollTop: 0 }, "slow");
     });
   });
+
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Thank you for downloading my resume!";
+  }
   
