@@ -9,6 +9,7 @@
 
  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
  <script src="js/index.js"></script>
+ <script src="./js/index.js"></script>
 </head>
 <body>
   <header class="header">
@@ -29,15 +30,16 @@
   <section class="herosection">
   <div class="noteforhero">
 
-    <h1>Hi, I`m Laleh Tavakoli</h1>
+    <h1 class="bodyFont">Hi, I`m Laleh Tavakoli</h1>
  
-  <p>Im a DC based UX/UI designer.<br>
+  <p class="bodyFont">Im a DC based UX/UI designer.<br>
     I believe that technology should make life easier and maybe
   even a bit more fun.<br>
    In my design journey,I focus on making things that not only work
   well<br> but also make people happy when they use them.<br>
  </p>
-  <button class="downloadResume" id="Download Resume">
+  <button class="downloadResume" id="Download Resume" 
+  onclick="resume()">
     <a href="https://drive.google.com/file/d/13yKbNVJ1_Y18OO7ATTO03L5Q1bvCH7Il/view?usp=drive_link" class="learnMoreLink">
       Download Resume</a></button>
       <p id="demo"></p>
